@@ -182,7 +182,7 @@ main div:first-child{
 }
 
 /* Add your media query here */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) { /* 900 or 800 */
 
 
   /* Step 9: Write the selector/rule property to style the nav element */
@@ -213,6 +213,6 @@ main div:first-child{
 
  .text-block{
    max-height: 250px;
-   overflow: auto;
+   overflow: auto; /*does it need to be visible*/
  }
 }
